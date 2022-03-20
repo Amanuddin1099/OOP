@@ -9,6 +9,9 @@ public class Test {
         s2.totalStudent();
         Student s3 = new Student();
         s3.totalStudent();
+        Student s4 = new Student();
+        s4.totalStudent();
+
 
 
     }

@@ -7,15 +7,13 @@ public class Encapsulation {
     private int id;
 
 
-    public String getName() {
+    public String getPrint() {
 
-        return name;
+        return name +"\n"+"Private Age: "+id;
 
     }
 
-   public int getId() {
-       return id;
-   }
+
     public void setName(String name, int id) {
         this.name = name;
         this.id = id;

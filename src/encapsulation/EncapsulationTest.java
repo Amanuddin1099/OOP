@@ -17,8 +17,8 @@ public class EncapsulationTest {
 
         person.setName(Na,Id);
 
-        System.out.println("Private Name: " + person.getName());
-        System.out.println("Private Id: " + person.getId());
+        System.out.println("Private Name: " + person.getPrint());
+ //      System.out.println("Private Id: " + person.getId());
     }
 
 
